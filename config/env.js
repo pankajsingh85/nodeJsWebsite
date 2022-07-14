@@ -9,10 +9,12 @@
 
 const env = {
   database: "node_express_apis",
-  username: "pankaj@myserver213",
+  username: "pankaj",
   password: "Aabcd12@#",
-  host: "myserver213.mysql.database.azure.com",
+  host: "server232.mysql.database.azure.com",
   dialect: "mysql",
+
+
 };
 
 module.exports = env;
