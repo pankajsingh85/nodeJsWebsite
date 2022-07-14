@@ -2,10 +2,9 @@
   "name": "nodejsassignment",
   "version": "1.0.0",
   "description": "node Js Assignment",
-  "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
-    
+    "start": "nodemon app.js",
+    "build": "webpack --config ./webpack.config.js"
   },
   "author": "pankaj singh",
   "license": "ISC",
@@ -15,9 +14,11 @@
     "express": "^4.17.3",
     "moment": "^2.29.1",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.17.0"
+    "sequelize": "^6.17.0",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "webpack-cli": "^4.10.0"
   }
 }
