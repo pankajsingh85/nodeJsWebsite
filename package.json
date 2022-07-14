@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "node Js Assignment",
   "scripts": {
-    "start": "nodemon app.js",
-   
+    "start": "nodemon app.js"
   },
   "author": "pankaj singh",
   "license": "ISC",
