@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/57f1f032-8749-4965-a4cf-77122a849570/microsoft.web/sites/subscriptions/57f1f032-8749-4965-a4cf-77122a849570/resourceGroups/newGroup/providers/Microsoft.Web/sites/dynamicWebApp1222",
+    "appService.deploySubpath": "."
+}
