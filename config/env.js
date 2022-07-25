@@ -12,9 +12,7 @@ const env = {
   username: "pankaj",
   password: "Abcd1234@#",
   host: "server1123.mysql.database.azure.com",
-  dialect: "mysql",
-
-
+  dialect: "mysql"
 };
 
 module.exports = env;
