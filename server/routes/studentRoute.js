@@ -4,7 +4,7 @@ const studentController = require('../controller/studentController');
 
 // Routes
 router.get('/student',studentController.home);      
-router.post('/result',studentController.findAll);      
+router.post('/findByRollNo',studentController.findAll);      
  
     
 module.exports = router;    
