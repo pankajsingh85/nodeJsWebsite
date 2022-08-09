@@ -11,7 +11,7 @@ const env = {
   database: "node_express_apis",
   username: "pankaj",
   password: "Abcd1234@#",
-  host: "server1123.mysql.database.azure.com",
+  host: "server32123.mysql.database.azure.com",
   dialect: "mysql"
 };
 
