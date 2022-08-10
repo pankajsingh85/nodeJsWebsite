@@ -1,5 +1,5 @@
 const express = require('express');
-
+const db=require('./config/db.config.js')
 
 require('dotenv').config();
 
@@ -22,5 +22,10 @@ const loginRoutes = require('./server/routes/loginRoute');
 app.use('/', teacherRoutes);
 app.use('/', studentRoutes);
 app.use('/', loginRoutes);
+
+db.sequelize.sync({ force: true }).then(() => {
+console.log("Drop and Resync with { force: true }");
+  
+});
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
