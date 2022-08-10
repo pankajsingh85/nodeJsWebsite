@@ -23,10 +23,10 @@ app.use('/', teacherRoutes);
 app.use('/', studentRoutes);
 app.use('/', loginRoutes);
 
-db.sequelize.sync({ force: true }).then(() => {
-console.log("Drop and Resync with { force: true }");
+// db.sequelize.sync({ force: true }).then(() => {
+// console.log("Drop and Resync with { force: true }");
   
-});
+// });
 
 
 // db.sequelize.sync({ alter: true }).then(
