@@ -28,4 +28,8 @@ console.log("Drop and Resync with { force: true }");
   
 });
 
+
+// db.sequelize.sync({ alter: true }).then(
+//     () => console.log("Sync complete")
+// );
 app.listen(port, () => console.log(`Listening on port ${port}`));
