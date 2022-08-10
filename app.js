@@ -29,7 +29,7 @@ app.use('/', loginRoutes);
 // });
 
 
-// db.sequelize.sync({ alter: true }).then(
-//     () => console.log("Sync complete")
-// );
+db.sequelize.sync({ alter: true }).then(
+    () => console.log("Sync complete")
+);
 app.listen(port, () => console.log(`Listening on port ${port}`));
